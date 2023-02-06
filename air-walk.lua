@@ -16,7 +16,6 @@ client.set_event_callback(
             if not is_onground then
                 local my_animlayer = me:get_anim_overlay(6) -- MOVEMENT_MOVE
                 my_animlayer.weight = 1
-                entity.set_prop(me, "m_flPoseParameter", 1, 6)
             end
         end
     end
