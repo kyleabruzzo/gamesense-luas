@@ -1,3 +1,4 @@
+-- @credits to noodlehvh and https://gamesense.pub/forums/viewtopic.php?id=40876
 local screen = {client.screen_size()}
 local x_offset, y_offset = screen[1], screen[2]
 local x, y =  x_offset/2,y_offset/2 
